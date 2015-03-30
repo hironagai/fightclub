@@ -68,8 +68,11 @@ var change = function(ptn) {
 
 
 var viewtest = function(){
-    var img = document.querySelector('#cap0');
-    img.style.display = "";
+    //var img = document.querySelector('#cap0');
+    //img.style.display = "";
+    var nagai = new ActionImage(document.querySelector('#cap0'),document.querySelector('#cap1'),document.querySelector('#cap2'));
+    //var nagai = new ActionImage('a','b','c');
+    nagai.viewNormal();
 };
 
 
